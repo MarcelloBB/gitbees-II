@@ -2,7 +2,7 @@ import requests
 import json
 from colour import Colour
 
-def showRepository(repositoryName): print(f"{Colour.cyan}[REPOSITORY] {repositoryName}")
+def showRepository(repositoryName): print(f"{Colour.cyan}[REPOSITORY] {Colour.blue}{repositoryName}")
 
 class Repository:
     def __init__(self, user): self.user = user
