@@ -21,6 +21,4 @@ class Repository:
             repositoryAddress = response[repository]['name']
             showRepository(repositoryAddress)
     
-
-r = Repository("MarcelloBB")
-r.doList()
+    
