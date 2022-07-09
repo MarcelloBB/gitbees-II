@@ -41,5 +41,3 @@ def runGitbees() -> None:
     
     if userOption == "1": userRepositories.doList()
     else: userData.showData()
-
-runGitbees()
