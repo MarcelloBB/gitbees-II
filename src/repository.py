@@ -1,6 +1,6 @@
 import requests
 import json
-from colour import Colour
+from src.colour import Colour
 
 def showRepository(repositoryName: str) -> None: print(f"{Colour.cyan}[REPOSITORY] {Colour.blue}{repositoryName}")
 

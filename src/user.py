@@ -1,5 +1,5 @@
 import requests
-from colour import Colour
+from src.colour import Colour
 import json
     
 def showUserData(login: str, name: str, location: str, bio: str,
